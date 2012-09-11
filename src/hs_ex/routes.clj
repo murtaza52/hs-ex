@@ -52,7 +52,7 @@
       (-> (calc-page data) response)))) 
 
 (def my-app (app
-             (wrap-logger true)
+             (wrap-logger false)
              wrap-keyword-params
              wrap-params
              wrap-file-info
