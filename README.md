@@ -1,10 +1,14 @@
 # hs-ex
 
-A Clojure library designed to ... well, that part is up to you.
+A fun clojure project with loads of learning.....
 
 ## Usage
 
-FIXME
+git clone git@github.com:murtaza52/hs-ex.git
+
+lein2 deps
+
+lein2 ring server
 
 ## License
 
