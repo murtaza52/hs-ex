@@ -11,14 +11,14 @@ lein2 deps
 The server can be stated in either of two ways - 
 
 First- 
-a) cd into the project folder.
-b) lein2 repl
-c) the server should be up and running ! (This uses the ring.util.serve to satrt the server on the repl startup)
+1. cd into the project folder.
+2. lein2 repl
+3. the server should be up and running ! (This uses the ring.util.serve to satrt the server on the repl startup)
 
 Second-
-a) Ensure you have [lein-ring "0.7.5"] in ~/.lein/profiles if you are using leiningen 2.
-b) lein2 deps
-c) lein2 ring server
+1. Ensure you have [lein-ring "0.7.5"] in ~/.lein/profiles if you are using leiningen 2.
+2. lein2 deps
+3. lein2 ring server
 
 lein2 ring server
 
